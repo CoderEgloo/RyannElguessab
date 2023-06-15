@@ -1,0 +1,101 @@
+#randombutton {
+    width: 46vw;
+    margin-left: 2vw;
+    height: 25vh;
+    border-radius: 20px;
+
+}
+
+#randombutton a:hover {
+    cursor: grab;
+}
+
+#textoutput {
+    position: relative;
+    width: 46vw;
+    height: 25vh;
+    top: -25vh;
+    margin-left: 52vw;
+    text-align: center;
+    line-height: 25vh;
+    font-size: 30px;
+
+}
+
+
+
+#securebutton {
+    width: 46vw;
+    margin-left: 2vw;
+    height: 25vh;
+    line-height: 25vh;
+    border-radius: 20px;
+
+
+}
+
+#securebutton a:hover {
+    cursor: pointer;
+}
+
+
+#passwordoutput {
+
+    position: relative;
+    width: 46vw;
+    height: 25vh;
+    line-height: 25vh;
+    top: -25vh;
+    margin-left: 52vw;
+    text-align: center;
+    font-size: 30px;
+
+
+}
+
+#texturepacks {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10vw;
+    justify-content: center;
+
+}
+
+.texturepack {
+    width: 25vw;
+    height: 25vh;
+    background-color: blue;
+    border-radius: 25px;
+    overflow: hidden;
+    color: aliceblue;
+}
+
+.texturepack .texturepack-title {
+    text-align: left;  
+    font-size: 30px;
+    width: 50%;
+    position: relative;
+    margin-left: 7.5%; 
+}
+
+.texturepack .texturepack-photo {  
+    position: relative;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.texturepack .texturepack-stats {  
+    position: absolute;
+    margin-left: 10%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .texturepack {
+        width: 95vw;
+        height: 25vh;
+    }
+ }

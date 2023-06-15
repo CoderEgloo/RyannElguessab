@@ -1,0 +1,108 @@
+body{
+    background-color: #1d8175;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    display: block;
+    margin-top: .75;
+    margin-bottom: 3;
+    text-align: center;
+
+}
+h2{
+    margin-left: 10vw;
+  }
+
+h3{
+    width: 70vw;
+    margin: auto;
+    margin-bottom: 10vh;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    background-color: #222831;
+    overflow-x: hidden;
+    transition: .8s;
+    padding-top: 40px;
+  }
+  
+    .sidebar a {
+    line-height: 80%;
+    padding: 5px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 50px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    user-select: none;
+    text-align: center;
+    
+    }
+    .sidebar a:hover {
+    color: #F05454;
+    font-size: 53px;
+    cursor: pointer;
+    }
+    .sidebar .closebtn {
+    position: absolute;
+    top: 1vh;
+    right: 1vw;
+    font-size: 25px;
+    margin-left: 50px;
+    color: #F05454;
+    font-size: 53px;
+    }
+    .openbtn {
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #222831;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    transition: .8s;
+    position: sticky;
+    top: .75vh;
+    left: .75vw;
+    z-index: 99;
+    
+    }
+    .openbtn:hover {
+    background-color: #444;
+    }
+
+    #loader {
+        position: fixed;
+        width: 100%;
+        height: 110vh;
+        z-index: 999999999999999999999999999999999;
+        overflow: visible;
+        background: #ffffff url('https://i2.wp.com/media.boingboing.net/wp-content/uploads/2015/10/tumblr_nlohpxGdBi1tlivlxo1_12801.gif?zoom=2&w=970') no-repeat center center;
+    }
+
+#footer {
+position: fixed center center;
+margin: auto;
+
+
+}
+
+@media screen and (max-width: 768px) {
+   .openbtn{
+    position: fixed;
+   }
+   #loader{
+    display: none;
+   }
+}

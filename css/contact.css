@@ -1,0 +1,126 @@
+#contactbox {
+    height: 60vh;
+    width: 40vw;
+    font-family: Georgia;
+    position: relative;
+    margin: auto;
+    background-color: #026670; 
+    display: block;
+    overflow: auto;
+}
+#contactbox #emailform {
+    background-color: #DDDDDD; 
+    font-size: 25px;   
+    width: 36vw;
+    border: none;
+
+    position: relative;
+    display: block;
+    margin: auto;
+    
+    margin-top: 2%;
+    padding-left: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+        
+        
+}
+
+#contactbox #nameform {
+            background-color: #DDDDDD; 
+            font-size: 25px;   
+            width: 36vw;
+            border: none;
+    
+            position: relative;
+            display: block;
+            margin: auto;
+    
+            margin-top: 2%;
+            padding-left: 1vw;
+            padding-top: 1vh;
+            padding-bottom: 1vh;
+}
+#contactbox #subjectform {
+        background-color: #DDDDDD; 
+        font-size: 25px;   
+        width: 36vw;
+        border: none;
+
+        position: relative;
+        display: block;
+        margin: auto;
+
+        margin-top: 2%;
+        padding-left: 1vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        
+}
+#contactbox #messageform {
+            background-color: #DDDDDD; 
+            font-size: 25px;   
+            width: 36vw;
+            border: none;
+            
+    
+            position: relative;
+            display: block;
+            margin: auto;
+    
+            margin-top: 2%;
+            margin-bottom: 4.5vh;
+            padding-left: 1vw;
+            padding-top: 1vh;
+            padding-bottom: 1vh;
+}
+ 
+
+
+#contactbox #send{
+          border: solid;
+          background-color: rgba(0, 0, 0, 0);
+          position: static;
+          overflow: auto;
+          width: 25vw;
+          height: 10vh;
+          font-size: 30px;
+          
+
+          margin-top: 2vh;
+          margin: auto;
+          display: block;
+          transition-duration: 0.4s;
+    
+}
+#contactbox #send:hover{
+            background-color: #fce181; 
+            color: white;
+            border: solid 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #contactbox{
+        width:90vw;
+        height:65vh;
+
+    }
+
+    #contactbox #emailform{
+        width:82vw;
+    }
+    #contactbox #nameform{
+        width:82vw;
+    }
+    #contactbox #subjectform{
+        width:82vw;
+    }
+    #contactbox #messageform{
+        width:82vw;
+        margin-bottom: 4.5vh;
+    }
+    #contactbox #send{
+        width:70vw;
+    }
+}

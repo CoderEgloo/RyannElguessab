@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryann Elguessab</title>
+    <link href="css/generic.css" rel="stylesheet"> 
+    <link href="css/project.css" rel="stylesheet">
+    <link rel="shorcut icon" href="resources/dathickboy.svg" sizes="32x32">
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+  <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+</head>
+
+
+<body>
+<script src="script.js"></script>
+<py-config>
+  packages = ["beautifulsoup4", "requests"]
+</py-config>
+
+<div id = "loader"></div>
+
+<div id="mySidebar" class="sidebar">
+  <a class="closebtn" onclick="closeNav()">×</a>
+  <a id="homeSite" onclick="homeSiteFunction()">Home</a>
+  <a id="resumeSite" onclick="resumeSiteFunction()">Resume</a>
+  <a id="projectSite" onclick="projectSiteFunction()">Projects</a>
+  <a id="contactSite" onclick="contactSiteFunction()">Contact Me</a>
+  
+</div>
+
+<div id="main">
+  <button class="openbtn" id="buttonOpen" onclick="openNav()">☰</button>
+  <h1>projects</h1> 
+</div>
+    <h2>Magic Code Ball</h2>
+    <h3>This is one of my first projects in Javascript where I make my take on the classic magic 8 ball but with much more variety. Everytime the user clicks the button a font, color, and "fortune" will be randomly selected from a list and then displayed to the end user. Its a pretty simple script but I had a lot of fun making it and learned some of the basics of integraging Javascript with HTML and CSS.</h3>
+    
+    <button id="randombutton" onclick="randomball()">See your fortune</button>
+    
+    <div id = "textoutput"></div>
+
+    <h2>Password Generator</h2>
+    <h3>This was my second project with Javascript. Many of the concepts are the same as my first JS project, selecting a element  from a list at index x and displaying it. In this project I did delve a little more in JS by making the password automatically copy to the clipboard for ease of use.</h3>
+    <button id="securebutton" onclick="randompassword()"">Generate your password</button>
+    
+    <div id = "passwordoutput" onclick="copypassword()"></div>
+    
+    <h2>Twitter Profile Scraper</h2>
+    <h3>After mastering the basics of Javascript's capability within static HMTL pages, I decided to return to Python. I never tried modules outside those built into Python and was astonished what I could do with a little patience. In this project, I used Selenium to operate the driver, Pillow to display the pack image, and Tkinter to display the user interface. The user enters in a Twitter handle, which the program will take to go to the user's page to screenshot the profile bar and save it as a .png image. <br> Here is a link to my code</h3>
+    
+    <h2>Resource Packs</h2>
+    <h3>I grew up playing Minecraft and enjoyed the creativity that it gave me. I had a lot more fun utilizing my creativity to make minecraft resource packs. (modifications to the game's default textures) The majority of Minecraft players use texturepacks to alter their gameplay. Utilizing a popular mod called Optifine, I was able to import my own 3-D models into the game. Due to Minecraft's simplistic style I was able to learn low-poly modeling, hopefully preparing me for the more advanced programs like Blender that I plan to learn in the future. To this day, I have over  
+       </h3>
+
+    <div id="texturepacks">
+      <div class="texturepack">
+        <div class="texturepack-title">Purple Poison</div> 
+        <img class="texturepack-photo" src = "texturepacks/purple-poison.png">
+        <div class="texturepack-stats">Total Views: 1,823<br>Total Downloads: 190</div> 
+
+      </div>
+
+      <div class="texturepack">
+          <div class="texturepack-title">Tophat Cats!</div>
+      </div>
+
+      <div class="texturepack">
+        <div class="texturepack-title">Colorful Allays</div>
+      </div>
+
+    </div>
+
+
+</div>
+
+    </div>
+    
+</body>
+</html> 
