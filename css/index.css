@@ -1,0 +1,67 @@
+#introparagraph {
+    color: aliceblue;
+    position: absolute;
+    top: 137vh;
+    width: 50vw;
+    height: 25vh;
+    font-size: 30px;
+    padding-left: 3vw;
+    padding-top: 3vw;
+    margin-left: 0%;
+}
+
+#invisbleman {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.container {
+    margin-top: 150vh;
+
+    z-index: 30;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    background-color: #F05454;
+    flex: 1;
+    max-width: 28vw;
+    height: 40vh;
+    margin: 1vw;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+
+}
+
+#banner {
+    position: absolute;
+    top: 210vh;
+    width: 94%;
+    margin-left: 1%;
+    background-color: sandybrown;
+    height: 7%;
+    font-size: 45px;
+    text-align: center;
+    padding: 2%
+}
+
+
+
+#name3d {
+    margin-left: -20vw;
+    z-index: 31;
+    margin-top: 3vh;
+
+}
